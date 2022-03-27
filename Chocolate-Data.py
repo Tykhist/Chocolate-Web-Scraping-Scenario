@@ -5,6 +5,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
+# Add context for each code block!!!!
+# Print comments were for checking my work
+
 web_info = requests.get('https://content.codecademy.com/courses/beautifulsoup/cacao/index.html')
 soup = BeautifulSoup(web_info.content, 'html.parser')
 #print(soup)
